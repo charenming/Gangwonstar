@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*M #0066ad S #30a3f3 B #ffffff T #333333*/
+#wrap { width:1200px; margin:0 auto;}
+
+header {height:100px;}
+header>h1 {float:left; width:200px;}    
+header>nav {float:right; }
+.mainMenu {margin: 10px;}
+.mainMenu>li{width:200px; 
+            position: relative; 
+            float:left;
+            height:80px;
+            line-height: 80px; 
+            background-color: #ffffff;
+            }
+.mainMenu>li:
+.mainMenu>li>a {color:#333333; font-size: 26px; font-weight: bold;}
+.subMenu {position: absolute;}
+.subMenu>li { font-size:16px;}
+.subMenu>li>a {color:#333333; font-size: 20px;}
+
+#slider {height:300px;}
+
+
+#content {height:200px;}
+
+
+footer {height:100px;}
