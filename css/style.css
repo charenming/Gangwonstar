@@ -49,7 +49,7 @@ header>nav {float:right;}
             left:0;
             opacity: 0;
         }
-.slide>li>img {width:100%;}
+.slide>li>a>img {width:100%;}
 .slide>li:first-child { opacity: 1; }
 .slideTxt { position:absolute;
             top:50%;
