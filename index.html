@@ -51,59 +51,72 @@
 
         <div id="slider">
             <ul class="slide">
-                <li><a href="#"><img src="images/slider1.jpg" alt="1"></a></li>
-                <li><a href="#"><img src="images/slider2.jpg" alt="2"></a></li>
-                <li><a href="#"><img src="images/slider3.jpg" alt="3"></a></li>
+                <li><a href="#"><img src="images/slider1.jpg" alt="1"></a>
+                    <span class="slideTxt">강원천문대에 오신 것을 환영합니다.1</span>
+                </li>
+                <li><a href="#"><img src="images/slider2.jpg" alt="2"></a>
+                    <span class="slideTxt">강원천문대에 오신 것을 환영합니다.2</span>
+                </li>
+                <li><a href="#"><img src="images/slider3.jpg" alt="3"></a>
+                    <span class="slideTxt">강원천문대에 오신 것을 환영합니다.3   </span>
+                </li>
             </ul>
         </div>
 
         <div id="content">
-            <section>
-                <div class="notice">
-                    <h2 class="title">공지사항</h2>
-                    <p><a href="#">8월의 강원천문대</a><span>2021.08.01</span></p>
-                    <p><a href="#">7월의 강원천문대</a><span>2021.07.01</span></p>
-                    <p><a href="#">6월의 강원천문대</a><span>2021.06.01</span></p>
-                    <p><a href="#">5월의 강원천문대</a><span>2021.05.01</span></p>
-                </div>
-                <div class="gallery">
-                    <h2 class="title">갤러리</h2>
-                    <ul>
-                        <li><a href="#"><img src="images/thumb1.jpg" alt="gallery1"></a></li>
-                        <li><a href="#"><img src="images/thumb2.jpg" alt="gallery2"></a></li>
-                        <li><a href="#"><img src="images/thumb3.jpg" alt="gallery3"></a></li>
-                    </ul>
-                </div>
-
+            <section class="tab">
+                    <h2 class="tabMenu">
+                        <a href="#">공지사항</a>
+                        <a href="#">갤러리</a>
+                    </h2>
+                    <div class="tabContents">
+                        <ul class="tabNotice">
+                            <li class="popUpLine"><a href="#">8월의 강원천문대</a><span>2021.08.01</span></li>
+                            <li><a href="#">7월의 강원천문대</a><span>2021.07.01</span></li>
+                            <li><a href="#">6월의 강원천문대</a><span>2021.06.01</span></li>
+                            <li><a href="#">5월의 강원천문대</a><span>2021.05.01</span></li>
+                        </ul>
+                        <ul class="tabGallery">
+                            <li><a href="#"><img src="images/thumb1.jpg" alt="gallery1"></a></li>
+                            <li><a href="#"><img src="images/thumb2.jpg" alt="gallery2"></a></li>
+                            <li><a href="#"><img src="images/thumb3.jpg" alt="gallery3"></a></li>
+                        </ul>
+                    </div>
             </section>
-            <section>
-                <div class="banner">
+            <section class="banner">
                     <h2 class="title">배너</h2>
-                    <a href="#"><img src="images/banner.jpg" alt="banner"></a>
-                </div>
-                
+                    <div class="imgBox"><a href="#"><img src="images/banner.jpg" alt="banner"></a></div>
             </section>
             <section>
                 <div class="link">
                     <h2 class="title">바로가기</h2>
-
-                    <a href="#"><img src="images/qlink.jpg" alt="link"></a>
+                    <div class="imgBox"><a href="#"><img src="images/qlink.jpg" alt="link"></a></div>
                 </div>
             </section>
         </div>
 
         <footer>
             <h1 class="btmLogo"><a href="#"><img src="images/btm_logo.gif" alt="btm_logo"></a></h1>
-            <div class="btmMenu">
-                <ul class="btmMenuA">
-                    <a href="#">관련사이트</a>
-                    <li><a href="#">강화천문대</a></li>
-                    <li><a href="#">경주천문대</a></li>
-                    <li><a href="#">제주천문대</a></li>
+            <div class="btm">
+                <ul class="btmMenu">
+                    <li><a href="#">강원천문대</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">오시는길</a></li>
+                    <li><a href="#">고객센터</a></li>
                 </ul>
+                <p class="copyright">copyright &copy; <span> 강원천문대 </span> All right reserved.</p>
             </div>
-            <p class="copyright">copyright &copy; <span> 강원천문대 </span> All right reserved.</p>
         </footer>
+
+        <div class="popUp">
+            <div class="modal">
+                <h3 class="popUpTitle">반짝반짝천문대</h3>
+                <p>반짝반짝 별이 보이는 강원천문대로 오세요</p>
+                <p>반짝반짝 별이 보이는 강원천문대로 오세요</p>
+                <p>반짝반짝 별이 보이는 강원천문대로 오세요</p>
+                <button class="close">닫기</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
